@@ -6,18 +6,36 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about",
+    title: "About",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "contact",
+    title: "Contact Us",
   },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  // {
+  //   id: "clients",
+  //   title: "Clients",
+  // },
 ];
+
+export const aboutLinks = [
+  {
+    id: "aboutUs",
+    title: "Who we are",
+    link: 'about'
+  },
+  {
+    id: "kambiomatik",
+    title: "About Kambiomatik",
+    link: 'https://kambiomatik.com/about-kambiomatik/'
+  },
+  {
+    id: "prestige",
+    title: "About Prestige",
+    link: 'https://prestigehome.al/en/about-us/'
+  }
+]
 
 export const features = [
   {

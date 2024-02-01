@@ -147,3 +147,9 @@
     background: rgba(255, 255, 255, 0.6);
     filter: blur(750px);
 }
+
+.hero-banner{
+    -webkit-box-reflect: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

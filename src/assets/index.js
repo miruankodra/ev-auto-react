@@ -5,8 +5,13 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
+import evauto from "./logo-evauto.svg";
+import kambiomatik from "./kambiomatik.png"
+import phome from "./PH-LOGO.png"
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
+import heroBanner from "./hero-banner.png"
+import shasis from "./ev-shasis.png"
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -32,7 +37,12 @@ export {
   coinbase,
   dropbox,
   logo,
+  evauto,
+  kambiomatik,
+  phome,
   quotes,
+  heroBanner,
+  shasis,
   robot,
   send,
   shield,

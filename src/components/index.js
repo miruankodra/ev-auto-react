@@ -1,9 +1,9 @@
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Stats from './Stats';
-import Business from './Business';
+import Vision from './Vision.jsx';
 import Button from './Button'
-import Billing from './Billing';
+import Family from './Family.jsx';
 import CardDeal from './CardDeal';
 import Testimonials from './Testimonials';
 import Clients from './Clinets';
@@ -14,9 +14,9 @@ export {
     Navbar,
     Hero,
     Stats,
-    Business,
+    Vision,
     Button,
-    Billing,
+    Family,
     CardDeal,
     Testimonials,
     Clients,
