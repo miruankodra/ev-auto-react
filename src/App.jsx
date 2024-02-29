@@ -1,5 +1,17 @@
 import styles from "./style";
-import { Family, Vision, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import {
+  Family,
+  Vision,
+  CardDeal,
+  Clients,
+  CTA,
+  Footer,
+  Navbar,
+  // Stats,
+  Services,
+  Hero,
+  ElectroMotor, DiverseSolutions, BatterySection, HistoryCarousel
+} from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden flex flex-row justify-center">
@@ -21,9 +33,13 @@ const App = () => (
           {/*<Stats />*/}
           <Vision />
           <Family />
-          <CardDeal />
-          <Testimonials />
-          <Clients />
+          <HistoryCarousel />
+          <Services />
+          <ElectroMotor />
+          <DiverseSolutions />
+          <BatterySection />
+          {/*<CardDeal />*/}
+          {/*<Clients />*/}
           <CTA />
           <Footer />
         </div>

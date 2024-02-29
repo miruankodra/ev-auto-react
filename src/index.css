@@ -116,6 +116,33 @@
     }
 }
 
+.dropdown {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
 .feature-card:hover {
     background: var(--black-gradient);
     box-shadow: var(--card-shadow);
@@ -152,4 +179,28 @@
     -webkit-box-reflect: right;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.top-left-border{
+    border-top: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.top-right-border{
+    border-top: 1px solid rgba(255, 255, 255, 0.7);
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+#industrySection {
+    /*padding: 25px 0 0 12rem;*/
+    width: 100%;
+    height: 880px;
+    background-image: url("assets/industry-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.historySlide{
+    transition: opacity 0.5s ease;
 }

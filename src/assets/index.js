@@ -28,6 +28,14 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import batteryStructure from "./battery-structure.png";
+import centroModels from "./centro-models.png";
+import electricCars from "./electric-car.png";
+import electricMotors from "./electric-motor.png";
+import greenBulb from "./green-bulb.png";
+import industryBg from "./industry-bg.png";
+import smartCar from "./smart-car.png";
+import chevron from "./right-chevron.png";
 
 export {
   airbnb,
@@ -60,4 +68,12 @@ export {
   people01,
   people02,
   people03,
+  batteryStructure,
+  centroModels,
+  electricCars,
+  electricMotors,
+  greenBulb,
+  industryBg,
+  smartCar,
+  chevron
 };

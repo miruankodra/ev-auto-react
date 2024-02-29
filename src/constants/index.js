@@ -108,65 +108,31 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Mobile",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Sales",
+        link: "+355672026730",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Workshop",
+        link: "+355672026727",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Email",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "info@evauto.al",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Address",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Airport Road, KM 3, Tirana, Albania",
       },
     ],
   },
@@ -193,6 +159,23 @@ export const socialMedia = [
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },
+];
+
+export const slides = [
+  [
+    { year: 'slide1.jpg', text: 'Slide 1' },
+    { year: 'slide2.jpg', text: 'Slide 2' },
+  ],
+  [
+    { year: 'slide3.jpg', text: 'Slide 3' },
+    { year: 'slide3.jpg', text: 'Slide 3' },
+  ],
+  [
+    { year: 'slide3.jpg', text: 'Slide 3' },
+    { year: 'slide3.jpg', text: 'Slide 3' },
+  ]
+
+
 ];
 
 export const clients = [

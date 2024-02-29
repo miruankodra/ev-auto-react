@@ -5,17 +5,9 @@ import GetStarted from './GetStarted';
 
 const Hero = () => (
     <section id="home" className={`flex md:flex-row flex-col pb-16`}>
-        <img src={heroBanner} className={`h-full w-full absolute left-0 hero-banner object-cover`} alt=""/>
-        <div className={`absolute w-full h-full z-[4] bg-black opacity-[0.5] backdrop-blur-[10px]`}></div>
-        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 z-[5]`}>
-            {/*<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">*/}
-            {/*    <img src={discount} alt="discount" className="w-[32px] h-[32px]"/>*/}
-            {/*    <p className={`${styles.paragraph} ml-2`}>*/}
-            {/*        <span className="text-white">20%</span> Discount For {" "}*/}
-            {/*        <span className="text-white">1 Month</span> Account*/}
-            {/*    </p>*/}
-            {/*</div>*/}
-
+        <img src={heroBanner} className={`h-full absolute left-0 hero-banner object-cover`} alt=""/>
+        <div className={`absolute w-full h-full left-0 z-[4] bg-black opacity-[0.5] backdrop-blur-[10px]`}></div>
+        <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 z-[5] md:mt-0 mt-12`}>
             <div className="flex flex-row justify-between items-center w-full">
                 <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
                     The Future
