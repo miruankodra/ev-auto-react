@@ -10,7 +10,7 @@ const AboutDropdown = () => {
 
 };
 
-const Navbar = () => {
+const   Navbar = () => {
     const [toggle, setToggle] = useState(false)
     const [dropdown, toggleDropdown] = useState(false)
 
